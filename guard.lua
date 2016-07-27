@@ -63,9 +63,10 @@ end
 
 --限制请求速率模块
 function Guard:limitReqModules(ip,reqUri,address)
+        -- 判断是否在需要限制保护的URL列表中
 	if ngx.re.match(address,_Conf.limitUrlProtect,"i") then	
 		self:debug("[limitReqModules] address "..address.." match reg ".._Conf.limitUrlProtect,ip,reqUri)	
-		local blackKey = ip.."black"
+		local blackKey = ip.."black"  -- 定义IP是否在黑名单
 		local limitReqKey = ip.."limitreqkey" --定义limitreq key
 		local reqTimes = _Conf.dict:get(limitReqKey) --获取此ip请求的次数
 
