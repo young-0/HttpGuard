@@ -532,7 +532,11 @@ function Guard:verifyCaptcha(ip)
 	self:debug("[verifyCaptcha] get cookie captchaNum "..captchaNum,ip,"")
 	local args = ngx.req.get_post_args() --获取post参数
 	local postValue = args["response"] --获取post value参数
-	postValue = string.lower(postValue)
+        if postValue then
+            postValue = string.lower(postValue)
+	else
+            postValue = ''
+        end
 	self:debug("[verifyCaptcha] get post arg response "..postValue,ip,"")
 	local captchaValue = _Conf.dict_captcha:get(captchaNum) --从字典获取post value对应的验证码值
 	if captchaValue == postValue then --比较验证码是否相等
@@ -595,6 +599,7 @@ end
 --执行相应动作
 function Guard:takeAction(ip,reqUri)
 	if _Conf.captchaAction then
+                -- 值为captcha时,表示ip在黑名单后返回带有验证码的页面,输入正确的验证码才允许继续访问网站
 		local cookie_key = ngx.var["cookie_captchaKey"] --获取cookie captcha密钥
 		local cookie_expire = ngx.var["cookie_captchaExpire"] --获取cookie captcha过期时间
 		if cookie_expire and cookie_key then

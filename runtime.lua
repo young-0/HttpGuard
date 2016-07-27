@@ -1,17 +1,26 @@
+-- 导入类库
 local Guard = require "guard"
+-- 获取remote_addr
 local remoteIp = ngx.var.remote_addr
+-- 获取 headers
 local headers = ngx.req.get_headers()
+-- 判断获取客户端真实IP
 local ip = Guard:getRealIp(remoteIp,headers)
+-- 判断获取请求uri
 local reqUri = ngx.var.request_uri
+-- uri
 local uri = ngx.var.uri
 local address = ''
 
+-- 导入nginx模块
 local limitModule = ngx.var.limit_module
 local redirectModule = ngx.var.redirect_module
 local jsModule = ngx.var.js_module
 local cookieModule = ngx.var.cookie_module
 
 --判断是某种url匹配模式
+-- 值requestUri时,url-protect目录下的正则匹配的是浏览器最初请求的地址且没有被decode,带参数的链接
+-- 值为uri时, url-protect目录下的正则匹配的是经过重写过的地址,不带参数,且已经decode.
 if _Conf.uriMode then
 	address = uri
 elseif _Conf.requestUriMode then
@@ -34,9 +43,9 @@ else
 		ngx.timer.at(0,Guard.autoSwitch)
 	end
 		
-	--白名单模块
+	--白名单模块 -- 匹配到白名单，返回true; 没有匹配到返回false
 	if not Guard:ipInWhiteList(ip) then
-		--黑名单模块
+		--黑名单模块 --执行相应的动作
 		Guard:blackListModules(ip,reqUri)
 
 		--限制请求速率模块

@@ -63,13 +63,13 @@ local Config = {
 	sudoPass = '',
 
 	-- 表示http-guard封锁ip的时间
-	blockTime = 600,
+	blockTime = 60,
 
 	-- JsJumpModules redirectModules cookieModules验证通过后,ip在白名单的时间
-	whiteTime = 600,
+	whiteTime = 60,
 
 	-- 用于生成token密码的key过期时间
-	keyExpire = 600,
+	keyExpire = 60,
 
 	-- 匹配url模式，可选值requestUri,uri
 	-- 值requestUri时,url-protect目录下的正则匹配的是浏览器最初请求的地址且没有被decode,带参数的链接
@@ -93,7 +93,7 @@ local Config = {
 	captchaDir = baseDir.."captcha/",
 
 	-- 是否开启debug日志
-	debug = false,
+	debug = true,
 
 	--日志目录,一般不需要修改.但需要设置logs所有者为nginx运行用户，如nginx运行用户为www，则命令为chown www logs
 	logPath = baseDir.."logs/",

@@ -1,0 +1,425 @@
+2016-07-27 11:26:35 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:26:35 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:26:35 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:26:36 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:37 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:26:37 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:26:37 [DEBUG] [limitReqModules] newReqTimes 6 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:37 [DEBUG] [limitReqModules] ip 124.205.229.62 request exceed 5 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [takeAction] cookie_expire 1469589469 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [takeAction] cookie_key c64aaf3398 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [takeAction] now 1469589998 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [takeAction] key_make 314ae83c25 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /hello
+2016-07-27 11:26:38 [DEBUG] [getCaptcha] get random num 1783 IP  GET 
+2016-07-27 11:26:38 [DEBUG] [getCaptcha] get captchaValue 7lum IP  GET 
+2016-07-27 11:26:39 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /hello
+2016-07-27 11:26:39 [DEBUG] [takeAction] cookie_expire 1469589469 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:39 [DEBUG] [takeAction] cookie_key c64aaf3398 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:39 [DEBUG] [takeAction] now 1469589999 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:39 [DEBUG] [takeAction] key_make 314ae83c25 IP 124.205.229.62 GET /hello
+2016-07-27 11:26:39 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /hello
+2016-07-27 11:26:39 [DEBUG] [getCaptcha] get random num 1836 IP  GET 
+2016-07-27 11:26:39 [DEBUG] [getCaptcha] get captchaValue 7swa IP  GET 
+2016-07-27 11:26:42 [DEBUG] [verifyCaptcha] get cookie captchaNum 1836 IP 124.205.229.62 GET 
+2016-07-27 11:26:42 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 11:26:42 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 11:26:42 [DEBUG] [getCaptcha] get random num 6673 IP  GET 
+2016-07-27 11:26:42 [DEBUG] [getCaptcha] get captchaValue nzmu IP  GET 
+2016-07-27 11:26:45 [DEBUG] [verifyCaptcha] get cookie captchaNum 6673 IP 124.205.229.62 GET 
+2016-07-27 11:26:45 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 11:26:45 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 11:26:45 [DEBUG] [getCaptcha] get random num 3530 IP  GET 
+2016-07-27 11:26:45 [DEBUG] [getCaptcha] get captchaValue d6hy IP  GET 
+2016-07-27 11:27:18 [DEBUG] [getCaptcha] get random num 4712 IP  GET 
+2016-07-27 11:27:18 [DEBUG] [getCaptcha] get captchaValue gwy5 IP  GET 
+2016-07-27 11:27:18 [DEBUG] [getCaptcha] get random num 1834 IP  GET 
+2016-07-27 11:27:18 [DEBUG] [getCaptcha] get captchaValue 7spx IP  GET 
+2016-07-27 11:27:23 [DEBUG] [getCaptcha] get random num 755 IP  GET 
+2016-07-27 11:27:23 [DEBUG] [getCaptcha] get captchaValue 4gxb IP  GET 
+2016-07-27 11:27:23 [DEBUG] [getCaptcha] get random num 6203 IP  GET 
+2016-07-27 11:27:23 [DEBUG] [getCaptcha] get captchaValue mmml IP  GET 
+2016-07-27 11:28:25 [DEBUG] [verifyCaptcha] get cookie captchaNum 6203 IP 124.205.229.62 GET 
+2016-07-27 11:28:25 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 11:28:25 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 11:28:25 [DEBUG] [getCaptcha] get random num 8420 IP  GET 
+2016-07-27 11:28:25 [DEBUG] [getCaptcha] get captchaValue uc5b IP  GET 
+2016-07-27 11:28:32 [DEBUG] [verifyCaptcha] get cookie captchaNum 8420 IP 124.205.229.62 GET 
+2016-07-27 11:28:32 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 11:28:32 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 11:28:32 [DEBUG] [getCaptcha] get random num 4010 IP  GET 
+2016-07-27 11:28:32 [DEBUG] [getCaptcha] get captchaValue er9p IP  GET 
+2016-07-27 11:29:51 [DEBUG] [verifyCaptcha] get cookie captchaNum 4010 IP 124.205.229.62 GET 
+2016-07-27 11:29:51 [DEBUG] [verifyCaptcha] get post arg response er9p IP 124.205.229.62 GET 
+2016-07-27 11:29:51 [DEBUG] [verifyCaptcha] captcha is valid.delete from blacklist IP 124.205.229.62 GET 
+2016-07-27 11:29:51 [DEBUG] [verifyCaptcha] expire 1469590251 IP 124.205.229.62 GET 
+2016-07-27 11:29:51 [DEBUG] [verifyCaptcha] captchaKey 6334aaf234 IP 124.205.229.62 GET 
+2016-07-27 11:29:51 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:29:51 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:29:51 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /hello
+2016-07-27 11:30:44 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:30:44 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:30:44 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /hello
+2016-07-27 11:30:44 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:30:44 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:30:44 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] newReqTimes 6 IP 124.205.229.62 GET /hello
+2016-07-27 11:30:45 [DEBUG] [limitReqModules] ip 124.205.229.62 request exceed 5 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:09 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:33:09 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:33:09 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:33:11 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] address /hello match reg \.php$|^.*$ IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] newReqTimes 6 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [limitReqModules] ip 124.205.229.62 request exceed 5 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [takeAction] now 1469590392 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /hello
+2016-07-27 11:33:12 [DEBUG] [getCaptcha] get random num 9188 IP  GET 
+2016-07-27 11:33:12 [DEBUG] [getCaptcha] get captchaValue wtp5 IP  GET 
+2016-07-27 11:33:13 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /hello
+2016-07-27 11:33:13 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:13 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:13 [DEBUG] [takeAction] now 1469590393 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:13 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /hello
+2016-07-27 11:33:13 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /hello
+2016-07-27 11:33:13 [DEBUG] [getCaptcha] get random num 9009 IP  GET 
+2016-07-27 11:33:13 [DEBUG] [getCaptcha] get captchaValue w8uf IP  GET 
+2016-07-27 11:33:14 [DEBUG] [getCaptcha] get random num 4169 IP  GET 
+2016-07-27 11:33:14 [DEBUG] [getCaptcha] get captchaValue f9ge IP  GET 
+2016-07-27 11:33:40 [DEBUG] [verifyCaptcha] get cookie captchaNum 4169 IP 124.205.229.62 GET 
+2016-07-27 11:33:40 [DEBUG] [verifyCaptcha] get post arg response w8uf IP 124.205.229.62 GET 
+2016-07-27 11:33:40 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 11:33:40 [DEBUG] [getCaptcha] get random num 6205 IP  GET 
+2016-07-27 11:33:40 [DEBUG] [getCaptcha] get captchaValue mn8j IP  GET 
+2016-07-27 11:33:46 [DEBUG] [verifyCaptcha] get cookie captchaNum 6205 IP 124.205.229.62 GET 
+2016-07-27 11:33:46 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] now 1469590426 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [verifyCaptcha] get cookie captchaNum 6205 IP 124.205.229.62 GET 
+2016-07-27 11:33:46 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] now 1469590426 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:33:46 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:00 [DEBUG] [verifyCaptcha] get cookie captchaNum 6205 IP 124.205.229.62 GET 
+2016-07-27 11:34:00 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:00 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:00 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:00 [DEBUG] [takeAction] now 1469590440 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:00 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:00 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:01 [DEBUG] [verifyCaptcha] get cookie captchaNum 6205 IP 124.205.229.62 GET 
+2016-07-27 11:34:01 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:01 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:01 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:01 [DEBUG] [takeAction] now 1469590441 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:01 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:01 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:02 [DEBUG] [verifyCaptcha] get cookie captchaNum 6205 IP 124.205.229.62 GET 
+2016-07-27 11:34:02 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:02 [DEBUG] [takeAction] cookie_expire 1469590251 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:02 [DEBUG] [takeAction] cookie_key 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:02 [DEBUG] [takeAction] now 1469590442 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:02 [DEBUG] [takeAction] key_make 6334aaf234 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:02 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 11:34:03 [DEBUG] [getCaptcha] get random num 3872 IP  GET 
+2016-07-27 11:34:03 [DEBUG] [getCaptcha] get captchaValue eab4 IP  GET 
+2016-07-27 12:35:30 [DEBUG] [verifyCaptcha] get cookie captchaNum 3872 IP 124.205.229.62 GET 
+2016-07-27 12:35:30 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 12:35:30 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 12:35:30 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:42:59 [DEBUG] [verifyCaptcha] get cookie captchaNum 3872 IP 124.205.229.62 GET 
+2016-07-27 13:42:59 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:42:59 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:42:59 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:42:59 [DEBUG] [getCaptcha] get random num 2185 IP  GET 
+2016-07-27 13:42:59 [DEBUG] [getCaptcha] get captchaValue 8y96 IP  GET 
+2016-07-27 13:43:00 [DEBUG] [verifyCaptcha] get cookie captchaNum 2185 IP 124.205.229.62 GET 
+2016-07-27 13:43:00 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:00 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:00 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:00 [DEBUG] [verifyCaptcha] get cookie captchaNum 2185 IP 124.205.229.62 GET 
+2016-07-27 13:43:00 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:00 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:00 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:01 [DEBUG] [verifyCaptcha] get cookie captchaNum 2185 IP 124.205.229.62 GET 
+2016-07-27 13:43:01 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:01 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:01 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:02 [DEBUG] [verifyCaptcha] get cookie captchaNum 2185 IP 124.205.229.62 GET 
+2016-07-27 13:43:02 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:02 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:02 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:03 [DEBUG] [verifyCaptcha] get cookie captchaNum 2185 IP 124.205.229.62 GET 
+2016-07-27 13:43:03 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:03 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:03 [DEBUG] [limitReqModules] newReqTimes 6 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:43:03 [DEBUG] [limitReqModules] ip 124.205.229.62 request exceed 5 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:46:46 [DEBUG] [verifyCaptcha] get cookie captchaNum 2185 IP 124.205.229.62 GET 
+2016-07-27 13:46:46 [DEBUG] [verifyCaptcha] get post arg response mn8j IP 124.205.229.62 GET 
+2016-07-27 13:46:46 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 13:46:46 [DEBUG] [getCaptcha] get random num 2434 IP  GET 
+2016-07-27 13:46:46 [DEBUG] [getCaptcha] get captchaValue 9tv9 IP  GET 
+2016-07-27 13:46:49 [DEBUG] [getCaptcha] get random num 739 IP  GET 
+2016-07-27 13:46:49 [DEBUG] [getCaptcha] get captchaValue 4f6z IP  GET 
+2016-07-27 13:46:52 [DEBUG] [verifyCaptcha] get cookie captchaNum 2434 IP 124.205.229.62 GET 
+2016-07-27 13:46:52 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:46:52 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:46:52 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:47:10 [DEBUG] [verifyCaptcha] get cookie captchaNum 739 IP 124.205.229.62 GET 
+2016-07-27 13:47:10 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:47:10 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:47:10 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:49:02 [DEBUG] [verifyCaptcha] get cookie captchaNum 739 IP 124.205.229.62 GET 
+2016-07-27 13:49:02 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:49:02 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:49:02 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:49:07 [DEBUG] [verifyCaptcha] get cookie captchaNum 739 IP 124.205.229.62 GET 
+2016-07-27 13:49:07 [DEBUG] [verifyCaptcha] get post arg response 9tv9 IP 124.205.229.62 GET 
+2016-07-27 13:49:07 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 13:49:07 [DEBUG] [getCaptcha] get random num 2046 IP  GET 
+2016-07-27 13:49:07 [DEBUG] [getCaptcha] get captchaValue 8h8j IP  GET 
+2016-07-27 13:49:09 [DEBUG] [getCaptcha] get random num 5740 IP  GET 
+2016-07-27 13:49:09 [DEBUG] [getCaptcha] get captchaValue l8jl IP  GET 
+2016-07-27 13:49:12 [DEBUG] [verifyCaptcha] get cookie captchaNum 2046 IP 124.205.229.62 GET 
+2016-07-27 13:49:12 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:49:12 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:49:12 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:12 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:52:12 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:12 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:12 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:17 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:52:17 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:17 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:17 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:36 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:52:36 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:36 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:36 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:53 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:52:53 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:53 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:53 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:58 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:52:58 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:58 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:52:58 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:53:22 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:53:22 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:53:22 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:53:22 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:53:34 [DEBUG] [verifyCaptcha] get cookie captchaNum 5740 IP 124.205.229.62 GET 
+2016-07-27 13:53:34 [DEBUG] [verifyCaptcha] get post arg response 8h8j IP 124.205.229.62 GET 
+2016-07-27 13:53:34 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 13:53:34 [DEBUG] [getCaptcha] get random num 1990 IP  GET 
+2016-07-27 13:53:34 [DEBUG] [getCaptcha] get captchaValue 8awk IP  GET 
+2016-07-27 13:56:56 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:56:56 [DEBUG] [verifyCaptcha] get post arg response 8awk IP 124.205.229.62 GET 
+2016-07-27 13:56:56 [DEBUG] [verifyCaptcha] captcha is valid.delete from blacklist IP 124.205.229.62 GET 
+2016-07-27 13:56:56 [DEBUG] [verifyCaptcha] expire 1469599076 IP 124.205.229.62 GET 
+2016-07-27 13:56:56 [DEBUG] [verifyCaptcha] captchaKey 96c7f3b46f IP 124.205.229.62 GET 
+2016-07-27 13:56:56 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:56:56 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:56:56 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:56:56 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:12 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:12 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:12 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:12 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:13 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:13 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:13 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:13 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:14 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:14 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:14 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:14 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:14 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:14 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:14 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:14 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] newReqTimes 6 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [limitReqModules] ip 124.205.229.62 request exceed 5 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [verifyCaptcha] get cookie captchaNum 1990 IP 124.205.229.62 GET 
+2016-07-27 13:58:15 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [takeAction] cookie_expire 1469599076 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [takeAction] cookie_key 96c7f3b46f IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [takeAction] now 1469599095 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [takeAction] key_make 96c7f3b46f IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 13:58:15 [DEBUG] [getCaptcha] get random num 3862 IP  GET 
+2016-07-27 13:58:15 [DEBUG] [getCaptcha] get captchaValue e98p IP  GET 
+2016-07-27 14:47:15 [DEBUG] [verifyCaptcha] get cookie captchaNum 3862 IP 124.205.229.62 GET 
+2016-07-27 14:47:15 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 14:47:15 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 14:47:15 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 14:47:24 [DEBUG] [verifyCaptcha] get cookie captchaNum 3862 IP 124.205.229.62 GET 
+2016-07-27 14:47:24 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 14:47:24 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 14:47:24 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 14:47:31 [DEBUG] [getCaptcha] get random num 9842 IP  GET 
+2016-07-27 14:47:31 [DEBUG] [getCaptcha] get captchaValue yxjj IP  GET 
+2016-07-27 14:47:31 [DEBUG] [getCaptcha] get random num 1608 IP  GET 
+2016-07-27 14:47:31 [DEBUG] [getCaptcha] get captchaValue 74rz IP  GET 
+2016-07-27 14:47:51 [DEBUG] [getCaptcha] get random num 4585 IP  GET 
+2016-07-27 14:47:51 [DEBUG] [getCaptcha] get captchaValue gjzf IP  GET 
+2016-07-27 14:47:52 [DEBUG] [getCaptcha] get random num 2678 IP  GET 
+2016-07-27 14:47:52 [DEBUG] [getCaptcha] get captchaValue ajyz IP  GET 
+2016-07-27 14:47:56 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /
+2016-07-27 14:47:56 [DEBUG] [limitReqModules] address / match reg \.php$|^.*$ IP 124.205.229.62 GET /
+2016-07-27 14:47:56 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /
+2016-07-27 14:47:56 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /
+2016-07-27 14:47:56 [DEBUG] [limitReqModules] address /index.html match reg \.php$|^.*$ IP 124.205.229.62 GET /
+2016-07-27 14:47:56 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] address / match reg \.php$|^.*$ IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] address /index.html match reg \.php$|^.*$ IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] newReqTimes 6 IP 124.205.229.62 GET /
+2016-07-27 14:47:57 [DEBUG] [limitReqModules] ip 124.205.229.62 request exceed 5 IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] cookie_expire 1469599076 IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] cookie_key 96c7f3b46f IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] now 1469602078 IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] key_make 96c7f3b46f IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [getCaptcha] get random num 761 IP  GET 
+2016-07-27 14:47:58 [DEBUG] [getCaptcha] get captchaValue 4hy3 IP  GET 
+2016-07-27 14:47:58 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] cookie_expire 1469599076 IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] cookie_key 96c7f3b46f IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] now 1469602078 IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] key_make 96c7f3b46f IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /
+2016-07-27 14:47:58 [DEBUG] [getCaptcha] get random num 2776 IP  GET 
+2016-07-27 14:47:58 [DEBUG] [getCaptcha] get captchaValue auh8 IP  GET 
+2016-07-27 14:48:43 [DEBUG] [blackListModules] ip 124.205.229.62 in blacklist IP 124.205.229.62 GET /
+2016-07-27 14:48:43 [DEBUG] [takeAction] cookie_expire 1469599076 IP 124.205.229.62 GET /
+2016-07-27 14:48:43 [DEBUG] [takeAction] cookie_key 96c7f3b46f IP 124.205.229.62 GET /
+2016-07-27 14:48:43 [DEBUG] [takeAction] now 1469602123 IP 124.205.229.62 GET /
+2016-07-27 14:48:43 [DEBUG] [takeAction] key_make 96c7f3b46f IP 124.205.229.62 GET /
+2016-07-27 14:48:43 [DEBUG] [takeAction] cookie key is invalid IP 124.205.229.62 GET /
+2016-07-27 14:48:43 [DEBUG] [getCaptcha] get random num 8182 IP  GET 
+2016-07-27 14:48:43 [DEBUG] [getCaptcha] get captchaValue tk6q IP  GET 
+2016-07-27 14:59:25 [DEBUG] [verifyCaptcha] get cookie captchaNum 8182 IP 124.205.229.62 GET 
+2016-07-27 14:59:25 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 14:59:25 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 14:59:25 [DEBUG] [getCaptcha] get random num 5245 IP  GET 
+2016-07-27 14:59:25 [DEBUG] [getCaptcha] get captchaValue jqec IP  GET 
+2016-07-27 15:02:13 [DEBUG] [verifyCaptcha] get cookie captchaNum 5245 IP 124.205.229.62 GET 
+2016-07-27 15:02:13 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 15:02:13 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 15:02:13 [DEBUG] [getCaptcha] get random num 8389 IP  GET 
+2016-07-27 15:02:13 [DEBUG] [getCaptcha] get captchaValue u875 IP  GET 
+2016-07-27 15:02:14 [DEBUG] [verifyCaptcha] get cookie captchaNum 8389 IP 124.205.229.62 GET 
+2016-07-27 15:02:14 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:14 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:14 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:14 [DEBUG] [getCaptcha] get random num 3071 IP  GET 
+2016-07-27 15:02:14 [DEBUG] [getCaptcha] get captchaValue bqj3 IP  GET 
+2016-07-27 15:02:19 [DEBUG] [verifyCaptcha] get cookie captchaNum 3071 IP 124.205.229.62 GET 
+2016-07-27 15:02:19 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:19 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:19 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:23 [DEBUG] [verifyCaptcha] get cookie captchaNum 3071 IP 124.205.229.62 GET 
+2016-07-27 15:02:23 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:23 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:23 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:28 [DEBUG] [verifyCaptcha] get cookie captchaNum 3071 IP 124.205.229.62 GET 
+2016-07-27 15:02:28 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 15:02:28 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 15:02:28 [DEBUG] [getCaptcha] get random num 4966 IP  GET 
+2016-07-27 15:02:28 [DEBUG] [getCaptcha] get captchaValue hqfz IP  GET 
+2016-07-27 15:02:28 [DEBUG] [verifyCaptcha] get cookie captchaNum 4966 IP 124.205.229.62 GET 
+2016-07-27 15:02:28 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:28 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:28 [DEBUG] [limitReqModules] newReqTimes 4 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:28 [DEBUG] [getCaptcha] get random num 7202 IP  GET 
+2016-07-27 15:02:28 [DEBUG] [getCaptcha] get captchaValue qkb3 IP  GET 
+2016-07-27 15:02:28 [DEBUG] [verifyCaptcha] get cookie captchaNum 7202 IP 124.205.229.62 GET 
+2016-07-27 15:02:28 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:28 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:02:28 [DEBUG] [limitReqModules] newReqTimes 5 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:27 [DEBUG] [verifyCaptcha] get cookie captchaNum 7202 IP 124.205.229.62 GET 
+2016-07-27 15:04:27 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:27 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:27 [DEBUG] [limitReqModules] newReqTimes 1 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:28 [DEBUG] [getCaptcha] get random num 3167 IP  GET 
+2016-07-27 15:04:28 [DEBUG] [getCaptcha] get captchaValue c2w6 IP  GET 
+2016-07-27 15:04:29 [DEBUG] [verifyCaptcha] get cookie captchaNum 3167 IP 124.205.229.62 GET 
+2016-07-27 15:04:29 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:29 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:29 [DEBUG] [limitReqModules] newReqTimes 2 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:30 [DEBUG] [verifyCaptcha] get cookie captchaNum 3167 IP 124.205.229.62 GET 
+2016-07-27 15:04:30 [DEBUG] [limitReqModules] limitReqModules is on. IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:30 [DEBUG] [limitReqModules] address /50x.html match reg \.php$|^.*$ IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:04:30 [DEBUG] [limitReqModules] newReqTimes 3 IP 124.205.229.62 GET /verify-captcha.jpg
+2016-07-27 15:47:13 [DEBUG] [verifyCaptcha] get cookie captchaNum 3167 IP 124.205.229.62 GET 
+2016-07-27 15:47:13 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 15:47:13 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 15:47:13 [DEBUG] [getCaptcha] get random num 6038 IP  GET 
+2016-07-27 15:47:13 [DEBUG] [getCaptcha] get captchaValue m572 IP  GET 
+2016-07-27 15:47:25 [DEBUG] [verifyCaptcha] get cookie captchaNum 6038 IP 124.205.229.62 GET 
+2016-07-27 15:47:25 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 15:47:25 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 15:47:25 [DEBUG] [getCaptcha] get random num 9044 IP  GET 
+2016-07-27 15:47:25 [DEBUG] [getCaptcha] get captchaValue wcqy IP  GET 
+2016-07-27 15:47:36 [DEBUG] [verifyCaptcha] get cookie captchaNum 9044 IP 124.205.229.62 GET 
+2016-07-27 15:47:36 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 15:47:36 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 15:47:36 [DEBUG] [getCaptcha] get random num 6230 IP  GET 
+2016-07-27 15:47:36 [DEBUG] [getCaptcha] get captchaValue mqpc IP  GET 
+2016-07-27 15:47:36 [DEBUG] [verifyCaptcha] get cookie captchaNum 6230 IP 124.205.229.62 GET 
+2016-07-27 15:47:36 [DEBUG] [verifyCaptcha] get post arg response  IP 124.205.229.62 GET 
+2016-07-27 15:47:36 [DEBUG] [verifyCaptcha] captcha invalid IP 124.205.229.62 GET 
+2016-07-27 15:47:36 [DEBUG] [getCaptcha] get random num 3101 IP  GET 
+2016-07-27 15:47:36 [DEBUG] [getCaptcha] get captchaValue bucg IP  GET 
